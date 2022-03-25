@@ -1,0 +1,28 @@
+
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Then add additional custom code here
+
+$clr-primary: #a8f1f0;
+
+html{
+    font-size: 13px;
+    @media(min-width: 768px){
+        font-size: 16px;
+    }
+}
+body{
+    background-color: rgba($clr-primary, 90%);
+}
+
+h1{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+p{
+    font-size: 1rem;
+}

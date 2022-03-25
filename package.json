@@ -1,0 +1,19 @@
+{
+  "name": "src-parcel",
+  "version": "1.0.0",
+  "description": "1. Create a src folder with html, scss or css, js files.",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.4.0",
+    "parcel": "^2.4.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
